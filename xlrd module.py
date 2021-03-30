@@ -25,7 +25,7 @@ def parse_file(filename):
     print(sheet.cell_value(3, 2))
 
     print('Get a slice of values in column3, from rows 1-3:')
-    print(sheet.col_values(3, start_rowx=1, end_rowx=4))
+    print(sheet.col_values(3, start_rowx=1, end_rowx=4))  #This will return a list
 
     print('\nDates:')
     print('Type of data in cell(row1,col0):')
