@@ -1,5 +1,4 @@
 import csv
-
 def parse_csv(filename):
     data = []
     with open(filename, 'rb') as f:
